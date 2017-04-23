@@ -11,7 +11,7 @@ def markovprocess(P,sigma,mu,N):
 		z=np.concatenate((z,np.array([zact]))).astype(int)
 	x=np.random.randn(1,N)* sigma[z] + mu[z]
 	x=x.reshape((N,))
-	return x
+	return x,z
 	
 	
 	
