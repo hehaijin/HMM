@@ -3,6 +3,14 @@ from backward import backward
 from forward import forward
 from normalize import normalize
 
+
+
+
+
+
+
+
+
 def forback(P,pi,sigma,mu,X):
 	T=X.shape[0]
 	K=mu.shape[0]

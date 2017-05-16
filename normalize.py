@@ -1,5 +1,6 @@
 import numpy as np
 
+#normalize a given vector. returns both the nomalized vector and the sum.
 def normalize(u):
 	N=np.shape(u)[0]
 	Result=np.zeros(np.shape(u))
@@ -16,3 +17,4 @@ def normalize(u):
 	
 u=np.array([1,2,3,4])
 r=normalize(u)
+

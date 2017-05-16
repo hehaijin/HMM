@@ -23,5 +23,6 @@ mu=np.array([1,2,3])
 N=100
 sigma=np.array([0.3, 0.3, 0.3])
 r=markovprocess(P,sigma,mu,N) 
+print(r)
 
 
